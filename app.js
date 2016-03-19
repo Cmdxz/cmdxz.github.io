@@ -65,7 +65,7 @@ var el = React.DOM;
 
 // Generates UUID for uniquely tagging components
 var genUuid = function() {
-  return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
+  return 'b2730bc0-2fe4-4adc-99b7-c1fddbb123b6'.replace(/[xy]/g, function(c) {
     var r = Math.random()*16|0, v = c == 'x' ? r : (r&0x3|0x8);
     return v.toString(16);
   });
